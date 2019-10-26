@@ -12,19 +12,25 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row justify-content-between">
       <div class="col-lg-12">
         <hr />
       </div>
-      <div class="col-lg-4">
-        <i class="fab fa-github"></i>
+      <div class="col-lg-3"></div>
+      <div class="col-lg-2">
+        <a href="https://github.com/mary-brady" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
       </div>
-      <div class="col-lg-4">
-        <i class="fab fa-linkedin"></i>
+      <div class="col-lg-2">
+        <a href="https://www.linkedin.com/in/mary-c-brady" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-2">
         <i class="far fa-folder-open"></i>
       </div>
+      <div class="col-lg-3"></div>
     </div>
     <div class="row">
       <div class="col-lg-12">
@@ -45,8 +51,19 @@ export default {
   }
 };
 </script>
-<style class="scoped">
-i {
-  font-size: 10vm;
+<style>
+.borderb {
+  border-bottom: 2px solid white;
+  display: inline-block;
+  width: inherit;
+  color: white;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 </style>
