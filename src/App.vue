@@ -5,6 +5,17 @@
   </div>
 </template>
 
+<script>
+import Home from "@/components/Home.vue";
+import Projects from "@/components/Projects.vue";
+export default {
+  components: {
+    Home,
+    Projects
+  }
+};
+</script>
+
 <style>
 #app {
   font-family: "Montserrat", sans-serif;

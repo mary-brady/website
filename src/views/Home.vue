@@ -4,9 +4,7 @@
       <div class="col-lg-12">
         <div class="col-md-10 offset-md-1">
           <h1 class="borderb">
-            <p>
-              <b>Mary Brady</b>
-            </p>
+            <p class="bigger-font">Mary Brady</p>
           </h1>
           <p class="text-right mb-0">SEO.</p>
           <p class="text-right mb-0">Full stack developer.</p>
@@ -30,7 +28,9 @@
         </a>
       </div>
       <div class="col-lg-2">
-        <i class="far fa-folder-open" alt="Projects"></i>
+        <router-link :to="{name: 'Projects'}">
+          <i class="far fa-folder-open" alt="Projects"></i>
+        </router-link>
       </div>
     </div>
     <div class="row">
@@ -39,7 +39,7 @@
       </div>
     </div>
     <div class="row contact">
-      <div class="col-lg-12">
+      <div class="col-lg-12 contact-font">
         <p class="no-margin">mbrady.js@gmail.com</p>
         <hr class="contact-line" />
         <p>775.340.2418</p>
@@ -56,11 +56,13 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
+import Projects from "@/components/Projects.vue";
 
 export default {
-  name: "home",
+  name: "Home",
   components: {
-    HelloWorld
+    HelloWorld,
+    Projects
   }
 };
 </script>
@@ -71,12 +73,16 @@ export default {
   align-items: center;
 }
 
+.bigger-font {
+  font-size: medium;
+}
+
 .no-margin {
   margin-bottom: 0;
 }
 
 .contact-line {
-  max-width: 65%;
+  max-width: 60%;
   margin-top: 0;
   margin-bottom: 0;
   height: 1px;
@@ -115,8 +121,13 @@ i {
   align-items: center;
   text-align: center;
 }
+.bigger-font {
+  font-size: larger;
+  font-family: "Montserrat", sans-serif;
+}
+
 p {
-  font-size: medium;
+  font-size: small;
 }
 
 .about {
