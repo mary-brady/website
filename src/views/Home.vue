@@ -1,6 +1,6 @@
 <template>
   <div class="home container-fluid">
-    <div class="row h55 about">
+    <div class="row h35 about">
       <div class="col-lg-12">
         <div class="col-md-10 offset-md-1">
           <h1 class="borderb">
@@ -12,25 +12,21 @@
         </div>
       </div>
     </div>
-    <div class="row align-items-center">
-      <!-- <div class="col-lg-12">
-        <hr />
-      </div>-->
-      <!-- <div class="col-lg-3"></div> -->
+    <div class="row align-items-center justify-content-center h35">
       <div class="col-lg-2 lines">
         <div class="vl"></div>
       </div>
-      <div class="col-lg-2">
+      <div class="col-lg-2 text-center">
         <a href="https://github.com/mary-brady" target="_blank">
           <i class="fab fa-github"></i>
         </a>
       </div>
-      <div class="col-lg-2">
+      <div class="col-lg-2 text-center">
         <a href="https://www.linkedin.com/in/mary-c-brady" target="_blank" alt="LinkedIn">
           <i class="fab fa-linkedin"></i>
         </a>
       </div>
-      <div class="col-lg-2">
+      <div class="col-lg-2 text-center">
         <router-link :to="{name: 'Projects'}">
           <i class="far fa-folder-open" alt="Projects"></i>
         </router-link>
@@ -45,17 +41,20 @@
       </div>
     </div>-->
     <div class="row contact">
-      <div class="col-lg-12 contact-font">
-        <p class="no-margin">mbrady.js@gmail.com</p>
-        <hr class="contact-line" />
-        <p>775.340.2418</p>
+      <div class="col-lg-10 offset-lg-1 contact-font">
+        <p class="no-margin borderc">mbrady.js@gmail.com</p>
+        <p class="no-margin">775.340.2418</p>
+        <!-- <hr class="contact-line" /> -->
       </div>
     </div>
-    <div class="row">
+    <div class="row contact text-left">
+      <div class="col-lg-10 offset-lg-1 contact-font"></div>
+    </div>
+    <!-- <div class="row">
       <div class="col-lg-12">
         <hr />
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
 
@@ -73,7 +72,7 @@ export default {
 };
 </script>
 <style >
-.h55 {
+.h35 {
   min-height: 35vh;
   justify-content: center;
   align-items: center;
@@ -88,16 +87,16 @@ export default {
 }
 
 .contact-line {
-  max-width: 60%;
+  max-width: 10%;
   margin-top: 0;
   margin-bottom: 0;
   height: 1px;
 }
 .contact {
   min-height: 10vh;
-  justify-content: center;
   align-items: center;
-  text-align: center;
+  /* justify-content: center;
+  text-align: center; */
 }
 .borderb {
   border-bottom: 2px solid white;
@@ -108,7 +107,7 @@ export default {
 .borderc {
   border-bottom: 2px solid white;
   display: inline-block;
-  width: 12%;
+  width: 40%;
   color: white;
 }
 hr {
@@ -144,12 +143,16 @@ p {
 }
 
 .vl {
-  border-left: 6px solid white;
+  border-left: 2px solid white;
   height: 10vh;
 }
 
 .lines {
   display: flex;
   justify-content: flex-end;
+}
+
+.home {
+  min-height: 100vh;
 }
 </style>
