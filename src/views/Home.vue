@@ -12,12 +12,15 @@
         </div>
       </div>
     </div>
-    <div class="row align-items-center social">
-      <div class="col-lg-12">
+    <div class="row align-items-center">
+      <!-- <div class="col-lg-12">
         <hr />
-      </div>
+      </div>-->
       <!-- <div class="col-lg-3"></div> -->
-      <div class="col-lg-2 offset-md-3">
+      <div class="col-lg-2 lines">
+        <div class="vl"></div>
+      </div>
+      <div class="col-lg-2">
         <a href="https://github.com/mary-brady" target="_blank">
           <i class="fab fa-github"></i>
         </a>
@@ -32,12 +35,15 @@
           <i class="far fa-folder-open" alt="Projects"></i>
         </router-link>
       </div>
+      <div class="col-lg-2">
+        <div class="vl"></div>
+      </div>
     </div>
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-lg-12">
         <hr />
       </div>
-    </div>
+    </div>-->
     <div class="row contact">
       <div class="col-lg-12 contact-font">
         <p class="no-margin">mbrady.js@gmail.com</p>
@@ -117,10 +123,10 @@ i {
   font-size: 40px;
 }
 
-.social {
+/* .social {
   align-items: center;
   text-align: center;
-}
+} */
 .bigger-font {
   font-size: larger;
   font-family: "Montserrat", sans-serif;
@@ -135,5 +141,15 @@ p {
   color: white;
   font-family: "Montserrat", sans-serif;
   display: flex;
+}
+
+.vl {
+  border-left: 6px solid white;
+  height: 10vh;
+}
+
+.lines {
+  display: flex;
+  justify-content: flex-end;
 }
 </style>
