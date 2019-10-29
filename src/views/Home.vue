@@ -27,7 +27,7 @@
         </a>
       </div>
       <div class="col-lg-2 text-center">
-        <router-link :to="{name: 'Projects'}">
+        <router-link :to="{name: 'projects'}">
           <i class="far fa-folder-open" alt="Projects"></i>
         </router-link>
       </div>
@@ -61,7 +61,7 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
-import Projects from "@/components/Projects.vue";
+import Projects from "@/views/Projects.vue";
 
 export default {
   name: "Home",
