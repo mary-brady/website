@@ -20,6 +20,6 @@ export default {
 #app {
   font-family: "Montserrat", sans-serif;
   background-color: #233142;
-  color: white;
+  color: rgb(241, 217, 191);
 }
 </style>

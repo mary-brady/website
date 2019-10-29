@@ -41,14 +41,14 @@
       </div>
     </div>-->
     <div class="row contact">
-      <div class="col-lg-10 offset-lg-1 contact-font">
+      <div class="col-lg-10 offset-lg-1">
         <p class="no-margin borderc">mbrady.js@gmail.com</p>
         <p class="no-margin">775.340.2418</p>
         <!-- <hr class="contact-line" /> -->
       </div>
     </div>
     <div class="row contact text-left">
-      <div class="col-lg-10 offset-lg-1 contact-font"></div>
+      <div class="col-lg-10 offset-lg-1"></div>
     </div>
     <!-- <div class="row">
       <div class="col-lg-12">
@@ -78,10 +78,6 @@ export default {
   align-items: center;
 }
 
-.bigger-font {
-  font-size: medium;
-}
-
 .no-margin {
   margin-bottom: 0;
 }
@@ -95,30 +91,31 @@ export default {
 .contact {
   min-height: 10vh;
   align-items: center;
+  color: rgb(235, 247, 253);
   /* justify-content: center;
   text-align: center; */
 }
 .borderb {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid rgb(83, 99, 114);
   display: inline-block;
   width: inherit;
-  color: white;
+  color: rgb(83, 99, 114);
 }
 .borderc {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid rgb(83, 99, 114);
   display: inline-block;
   width: 40%;
-  color: white;
+  color: rgb(235, 247, 253);
 }
 hr {
   display: block;
   height: 1px;
-  border-top: 2px solid white;
+  border-top: 2px solid rgb(83, 99, 114);
   padding: 0;
 }
 a,
 i {
-  color: white;
+  color: rgb(235, 247, 253);
   font-size: 40px;
 }
 
@@ -133,6 +130,7 @@ i {
 
 p {
   font-size: small;
+  color: rgb(235, 247, 253);
 }
 
 .about {
@@ -143,13 +141,14 @@ p {
 }
 
 .vl {
-  border-left: 2px solid white;
+  border-left: 2px solid rgb(83, 99, 114);
   height: 10vh;
 }
 
 .lines {
   display: flex;
   justify-content: flex-end;
+  color: rgb(83, 99, 114);
 }
 
 .home {
