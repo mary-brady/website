@@ -42,7 +42,11 @@
                     </p>
                   </li>
                 </ul>
-                <a href="www.4riversinspections.com" class="btn btn-light">View</a>
+                <a
+                  :href="'http://www.4riversinspections.com' "
+                  class="btn btn-light"
+                  targer="_blank"
+                >View</a>
               </div>
             </div>
           </div>
