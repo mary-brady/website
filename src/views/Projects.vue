@@ -1,6 +1,13 @@
 <template>
   <div class="projects container-fluid">
     <div class="row">
+      <div class="col-md-10 offset-md-1 top-container">
+        <router-link :to="{name: 'home'}">
+          <i class="fas fa-arrow-left back-icon" alt="Home"></i>
+        </router-link>
+      </div>
+    </div>
+    <div class="row margin-top: 40px;">
       <div class="col-md-10 offset-md-1">
         <h1 class="borderb">
           <p class="bigger-font">Projects</p>

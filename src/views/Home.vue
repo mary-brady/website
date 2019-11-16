@@ -113,6 +113,12 @@ export default {
   /* width: inherit; */
   color: whitesmoke;
 }
+
+.top-container {
+  border-bottom: 2px solid rgb(83, 99, 114);
+  width: 90vw;
+}
+
 hr {
   display: block;
   height: 1px;
@@ -123,6 +129,11 @@ a,
 i {
   color: rgb(235, 247, 253);
   font-size: 40px;
+}
+
+.back-icon {
+  color: rgb(235, 247, 253);
+  font-size: 30px;
 }
 
 /* .social {
