@@ -107,6 +107,12 @@ export default {
   width: 40%;
   color: rgb(235, 247, 253);
 }
+.project-border {
+  border-bottom: 2px solid rgb(83, 99, 114);
+  display: inline-block;
+  /* width: inherit; */
+  color: whitesmoke;
+}
 hr {
   display: block;
   height: 1px;
