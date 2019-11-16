@@ -45,7 +45,7 @@
                 <a
                   :href="'http://www.4riversinspections.com' "
                   class="btn btn-light"
-                  targer="_blank"
+                  target="_blank"
                 >View</a>
               </div>
             </div>
