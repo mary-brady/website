@@ -127,8 +127,6 @@ export default {
   width: 90vw;
 } */
 
-/* testing autopush to git */
-
 hr {
   display: block;
   height: 1px;
