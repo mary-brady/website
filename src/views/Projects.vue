@@ -19,7 +19,7 @@
         <div class="card text-white bg-dark mb-3" style="max-width: 540px;">
           <div class="row no-gutters">
             <div class="col-md-4">
-              <img src="../assets/4RiversProject.png" class="card-img" alt="..." />
+              <img src="../assets/4RiversProject.png" class="card-img" alt="4Rivers Inspections" />
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -67,7 +67,7 @@
         <div class="card text-white bg-dark mb-3" style="max-width: 540px;">
           <div class="row no-gutters">
             <div class="col-md-4">
-              <img src="../assets/YOFT.png" class="card-img img-fluid" alt="..." />
+              <img src="../assets/YOFT.png" class="card-img img-fluid" alt="YOFT" />
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -75,28 +75,36 @@
                 <p
                   class="card-text"
                 >Boise CodeWorks capstone. Group effort fitness tracker with daily challenges, workout builder, and progress charts.</p>
-                <ul>
-                  <li>
-                    <p class="card-text">
-                      <small>Vuejs</small>
-                    </p>
-                  </li>
-                  <li>
-                    <p class="card-text">
-                      <small>Node.js</small>
-                    </p>
-                  </li>
-                  <li>
-                    <p class="card-text">
-                      <small>ChartJS</small>
-                    </p>
-                  </li>
-                  <li>
-                    <p class="card-text">
-                      <small>Heroku</small>
-                    </p>
-                  </li>
-                </ul>
+                <div class="row">
+                  <div class="col-4">
+                    <ul>
+                      <li>
+                        <p class="card-text">
+                          <small>Vuejs</small>
+                        </p>
+                      </li>
+                      <li>
+                        <p class="card-text">
+                          <small>Node.js</small>
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-4">
+                    <ul>
+                      <li>
+                        <p class="card-text">
+                          <small>ChartJS</small>
+                        </p>
+                      </li>
+                      <li>
+                        <p class="card-text">
+                          <small>Heroku</small>
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
                 <div class="row">
                   <div class="col-6">
                     <a
@@ -124,7 +132,7 @@
         <div class="card text-white bg-dark mb-3" style="max-width: 540px;">
           <div class="row no-gutters">
             <div class="col-md-4">
-              <img src="../assets/Keepr.png" class="card-img" alt="..." />
+              <img src="../assets/Keepr.png" class="card-img" alt="Keepr" />
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -181,7 +189,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-5">
+      <!-- <div class="col-md-5">
         <div class="card text-white bg-dark mb-3" style="max-width: 540px;">
           <div class="row no-gutters">
             <div class="col-md-4">
@@ -235,7 +243,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
     </div>
   </div>
 </template>
@@ -257,6 +265,6 @@ export default {
 }
 .card-img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 </style>

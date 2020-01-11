@@ -31,6 +31,14 @@
           <i class="far fa-folder-open" alt="Projects"></i>
         </router-link>
       </div>
+      <div class="col-lg-2 text-center">
+        <a
+          :href="'https://docs.google.com/document/d/11RYU3RdR-2qUoyu6gcXXs7587_IuBXhcUbjIaOXv-6Q/edit?usp=sharing' "
+          target="_blank"
+        >
+          <i class="far fa-id-card"></i>
+        </a>
+      </div>
       <div class="col-lg-2">
         <div class="vl"></div>
       </div>
@@ -109,7 +117,7 @@ export default {
 }
 .project-border {
   border-bottom: 2px solid rgb(83, 99, 114);
-  display: inline-block;
+  /* display: inline-block; */
   /* width: inherit; */
   color: whitesmoke;
 }
@@ -142,7 +150,7 @@ i {
 } */
 .bigger-font {
   font-size: larger;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito";
 }
 
 p {
@@ -153,7 +161,7 @@ p {
 .about {
   background-color: #233142;
   color: white;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito";
   display: flex;
 }
 

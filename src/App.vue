@@ -22,7 +22,7 @@ export default {
 
 <style>
 #app {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito";
   background-color: #233142;
   color: rgb(241, 217, 191);
 }
