@@ -122,10 +122,10 @@ export default {
   color: whitesmoke;
 }
 
-.top-container {
+/* .top-container {
   border-bottom: 2px solid rgb(83, 99, 114);
   width: 90vw;
-}
+} */
 
 hr {
   display: block;
